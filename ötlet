@@ -1,0 +1,76 @@
+#include "std_lib_facilities.h"
+//#include "dos.h" 
+//#include "conio.h"
+
+int main()
+{
+	cout << "Válassz egy számot 1-10-ig!\n\n";
+
+
+	cout << "1. alma | 2. körte | 3. zöld" <<endl;
+	cout << "4. kék  | 5. autó  | 6. szék" <<endl;
+	cout << "7. kép  | 8. motor | 9. asztal" <<endl;
+	cout << "        | 10. nyúl |        " <<endl<<endl;
+
+	int beszam;
+
+	cin >> beszam;
+
+	cout << "Te ezt a számot választottad: " <<beszam<< "\n\n";
+
+
+	switch(beszam)
+	{
+		case 1:
+			cout << "A te karaktered az alma.\n\n";
+			break;
+		case 2:
+			cout << "A te karaktered a körte.\n\n";
+			break;
+		case 3:
+			cout << "A te karaktered a zöld.\n\n";
+			break;
+		case 4:
+			cout << "A te karaktered a kék.\n\n";
+			break;
+		case 5:
+			cout << "A te karaktered az autó.\n\n";
+			break;
+		case 6:
+			cout << "A te karaktered a szék.\n\n";
+			break;
+		case 7:
+			cout << "A te karaktered a kép.\n\n";
+			break;
+		case 8:
+			cout << "A te karaktered a motor.\n\n";
+			break;
+		case 9:
+			cout << "A te karaktered az asztal.\n\n";
+			break;
+		case 10:
+			cout << "A te karaktered a nyúl.\n\n";
+			break;
+		default:
+			cout << "Nem létező számot adtál meg!!!\n\n\n";
+			break;
+	}
+	
+	/*clrscr();
+
+	cout << "K";
+	delay(50);
+	cout << "Ö";
+	cout << "S";
+	cout << "Z";
+	cout << "Ö";
+	cout << "N";
+	cout << "Ö";
+	cout << "M";
+
+	getch();
+	*/
+
+
+	return 0;
+}
